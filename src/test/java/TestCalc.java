@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  */
 public class TestCalc {
 	@Test
-	public void testCalc() {
+	public void testCalcAdd() {
 		assertEquals(3, Calc.add(2, 1));
 		System.out.println(Calc.add(2, 1));
 
