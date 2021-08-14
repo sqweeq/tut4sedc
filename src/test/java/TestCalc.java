@@ -14,4 +14,11 @@ public class TestCalc {
 		System.out.println(Calc.add(2, 1));
 
 	}
+
+	@Test
+	public void testCalcSubtract() {
+		assertEquals(2, Calc.subtract(3, 1));
+		System.out.println(Calc.subtract(3, 1));
+
+	}
 }
